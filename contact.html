@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Reserve a Table - Nadargul Kitchen</title>
+  <meta name='description' content='Reserve a table at Nadargul Kitchen, Nadargul, Telangana. We welcome families and travelers to enjoy authentic Indian dining.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='opacity-0 transition-opacity duration-700'>
+  <header class='bg-white/90 backdrop-blur-md sticky top-0 z-50'>
+    <nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between'>
+      <a href='index.html' class='text-2xl font-bold text-orange-600'>Nadargul Kitchen</a>
+      <div class='hidden md:flex items-center space-x-6'>
+        <a href='index.html' class='text-gray-800 hover:text-orange-600 transition-all duration-300'>Home</a>
+        <a href='about.html' class='text-gray-800 hover:text-orange-600 transition-all duration-300'>About</a>
+        <a href='index.html#menu' class='text-gray-800 hover:text-orange-600 transition-all duration-300'>Menu</a>
+        <a href='contact.html' class='text-gray-800 hover:text-orange-600 transition-all duration-300'>Reservations</a>
+        <a href='contact.html' class='text-gray-800 hover:text-orange-600 transition-all duration-300'>Contact</a>
+      </div>
+      <button id='nav-toggle' class='md:hidden text-gray-800'>☰</button>
+    </nav>
+    <div id='nav-menu' class='md:hidden hidden px-4 pb-4'>
+      <a href='index.html' class='block py-2 text-gray-800 hover:text-orange-600 transition-all duration-300'>Home</a>
+      <a href='about.html' class='block py-2 text-gray-800 hover:text-orange-600 transition-all duration-300'>About</a>
+      <a href='index.html#menu' class='block py-2 text-gray-800 hover:text-orange-600 transition-all duration-300'>Menu</a>
+      <a href='contact.html' class='block py-2 text-gray-800 hover:text-orange-600 transition-all duration-300'>Reservations</a>
+      <a href='contact.html' class='block py-2 text-gray-800 hover:text-orange-600 transition-all duration-300'>Contact</a>
+    </div>
+  </header>
+
+  <main class='min-h-screen'>
+    <section class='relative py-12 bg-gray-50'>
+      <div class='max-w-2xl mx-auto px-4'>
+        <h1 class='text-3xl font-bold mb-2'>Reserve a Table</h1>
+        <p class='text-gray-700 mb-4'>Please fill the form and our team will confirm your booking shortly. Location: Nadargul, Telangana, India.</p>
+        <form action='#' method='post' class='grid grid-cols-1 md:grid-cols-2 gap-4'>
+          <input type='text' placeholder='Full Name' required class='px-3 py-2 rounded border border-gray-300'>
+          <input type='tel' placeholder='Phone' required class='px-3 py-2 rounded border border-gray-300'>
+          <input type='email' placeholder='Email' required class='px-3 py-2 rounded border border-gray-300'>
+          <input type='date' required class='px-3 py-2 rounded border border-gray-300'>
+          <input type='time' required class='px-3 py-2 rounded border border-gray-300'>
+          <input type='number' placeholder='Party Size' min='1' max='20' required class='px-3 py-2 rounded border border-gray-300'>
+        </form>
+        <button class='mt-4 px-6 py-2 bg-amber-500 text-black font-semibold rounded transition-all duration-300 hover:bg-amber-400'>Submit Reservation</button>
+      </div>
+    </section>
+
+    <section class='py-8 bg-white'>
+      <div class='max-w-6xl mx-auto px-4 text-center'>
+        <img src='https://pixabay.com/get/gf9e72594c368542256731659f48c80d366da8fa5d97cf8a2c1af82e77a8614b0a3421c26759b406eef4465db37175d42d214f78bfc552c17d1c6e5e8fd41dcf3_640.jpg' alt='Map of Nadargul' class='mx-auto w-full max-w-md rounded-lg shadow-md'>
+        <p class='text-gray-600 mt-2'>Address: Nadargul, Telangana, India</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-gray-900 text-gray-100'>
+    <div class='max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-8'>
+      <section>
+        <h4 class='text-xl font-semibold mb-2'>Nadargul Kitchen</h4>
+        <p class='text-gray-400'>Experience authentic Indian flavors with a modern, welcoming touch.</p>
+      </section>
+      <section>
+        <h4 class='text-xl font-semibold mb-2'>Quick Links</h4>
+        <ul class='text-gray-400'>
+          <li><a href='index.html' class='hover:text-white transition-all duration-300'>Home</a></li>
+          <li><a href='about.html' class='hover:text-white transition-all duration-300'>About</a></li>
+          <li><a href='index.html#menu' class='hover:text-white transition-all duration-300'>Menu</a></li>
+          <li><a href='contact.html' class='hover:text-white transition-all duration-300'>Reservations</a></li>
+          <li><a href='contact.html' class='hover:text-white transition-all duration-300'>Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4 class='text-xl font-semibold mb-2'>Newsletter</h4>
+        <form action='#' method='post' class='flex'>
+          <input type='email' placeholder='Email address' required class='w-full px-3 py-2 rounded-l-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none'>
+          <button type='submit' class='px-4 py-2 bg-yellow-500 text-black font-semibold rounded-r-md transition-all duration-300 hover:bg-yellow-400'>Join</button>
+        </form>
+      </section>
+    </div>
+    <hr class='border-gray-700'>
+    <p class='text-center text-sm py-4'>© 2025 Nadargul Kitchen. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      document.body.classList.remove('opacity-0');
+      var btn = document.getElementById('nav-toggle');
+      var panel = document.getElementById('nav-menu');
+      if(btn && panel){ btn.addEventListener('click', function(){ panel.classList.toggle('hidden'); }); }
+    });
+  </script>
+</body>
+</html>
